@@ -1,0 +1,17 @@
+import { Router } from "express";
+import authRouter from "../Auth/index.js";
+import userRouter from "../user/index.js";
+import passengerRouter from "../passenger/index.js";
+import busRouter from "../bus/index.js";
+import busRouteRouter from "../busRoute/index.js";
+import seatRouter from "../seat/index.js";
+import paymentRouter from "../payment/index.js";
+const allRouter = Router();
+allRouter.use(userRouter);
+allRouter.use(authRouter);
+allRouter.use(passengerRouter);
+allRouter.use(busRouter);
+allRouter.use(busRouteRouter);
+allRouter.use(seatRouter);
+allRouter.use(paymentRouter);
+export default allRouter;

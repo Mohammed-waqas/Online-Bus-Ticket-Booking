@@ -1,0 +1,84 @@
+/* Login.css */
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.field-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px; /* Add margin-top to create space */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.dont-have-account {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin-top for better spacing */
+}
+
+.forgot-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.forgot-link:hover {
+  text-decoration: none;
+}
+
+.dont-have-account a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.dont-have-account a:hover {
+  text-decoration: underline;
+}

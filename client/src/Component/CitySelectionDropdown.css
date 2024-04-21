@@ -1,0 +1,104 @@
+/* CitySelectionExample.css */
+
+.cont {
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin-bottom: 10px;
+}
+
+.label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.select-box,
+.date-picker,
+.search-button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.date-picker {
+  width: 180px;
+  border: 1px solid #ccc; /* Add border to date picker */
+}
+
+.bus-list {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bus-list h2 {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+/* Button Styles */
+.book-now-button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.book-now-button:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.bus-routes-list {
+  background-color: aqua;
+  margin-bottom: 20px;
+}

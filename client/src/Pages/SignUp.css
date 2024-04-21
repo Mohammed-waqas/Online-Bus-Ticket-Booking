@@ -1,0 +1,80 @@
+/* SignUp.css */
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group p {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-group .field-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+/* Adjustments for error message */
+.form-group.error input {
+  border-color: red; /* Change border color when error occurs */
+}
+
+.form-group.error .field-icon {
+  color: red; /* Change icon color when error occurs */
+}
+
+.form-group.error p {
+  margin-top: 5px; /* Ensure error message stays aligned */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.already-have-account a {
+  text-decoration: none;
+  color: #007bff;
+}
+.already-have-account a:hover {
+  text-decoration: underline;
+}
